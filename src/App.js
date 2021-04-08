@@ -1,15 +1,18 @@
+import Searchengine from "./Searchengine"; 
+
 import './App.css';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
+      <div className="container">
       <header className="App-header">
-        
-        Hello :)
-      
+        <main>
+        <Searchengine />
+        </main>
       </header>
+      </div>
+      <footer className="text-center">Coded by Ravenn A.A</footer>
     </div>
   );
 }
-
-export default App;
