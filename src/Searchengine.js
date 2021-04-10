@@ -35,8 +35,9 @@ if (loaded) {
     return (
         <div className="Searchengine">  
         <section>
+            <h1>What word do you want to look up?</h1>
         <form onSubmit={handleSubmit}>
-            <input type="Search" onChange={handleKeywordChange}/>
+            <input type="Search" onChange={handleKeywordChange} defaultValue={props.defaultKeyword}/>
         </form>
         <div className="hint">
             Suggested Words: Sunset, Wine, Yoga, Planets...
