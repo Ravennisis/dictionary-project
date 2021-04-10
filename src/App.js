@@ -8,7 +8,7 @@ export default function App() {
       <div className="container">
       <header className="App-header">
         <main>
-        <Searchengine />
+        <Searchengine defaultKeyword="Love"/>
         </main>
       </header>
       </div>
