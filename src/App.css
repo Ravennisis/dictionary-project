@@ -1,3 +1,20 @@
+h1 {
+  text-align: center;
+  color: #d3395a;
+  font-size: 80px;
+  font-weight: bolder;
+}
+
 .App {
-  max-width: 750px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.App-header {
+  margin: 30px 0;
+}
+
+.signature {
+  text-align: center;
+  padding: 20px;
 }

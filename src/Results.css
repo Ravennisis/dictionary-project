@@ -1,5 +1,7 @@
-.Results h1 {
-  font-size: 36px;
+.keyword {
+  font-size: 60px;
+  color: #d3395a;
   font-weight: bold;
-  line-height: 1.5;
+  text-align: left;
+  text-transform: capitalize;
 }

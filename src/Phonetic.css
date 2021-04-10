@@ -14,11 +14,24 @@
 }
 
 .Phonetic a:hover {
-  background: orchid;
+  background: #da627d;
   color: white;
 }
 
 .Phonetic .text {
   opacity: 0.5;
   font-weight: bold;
+}
+
+.Phonetic button {
+  padding: 0;
+  border: none;
+  margin-right: 6px;
+  background: none;
+  color: #da627d;
+  transition: all 150ms ease-in-out;
+}
+
+.Phonetic button:hover {
+  color: #d3395a;
 }

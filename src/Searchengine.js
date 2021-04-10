@@ -46,7 +46,7 @@ if (loaded) {
     return (
         <div className="Searchengine">  
         <section>
-            <h1>What word do you want to look up?</h1>
+            <h1 className="instruction">What word do you want to look up?</h1>
         <form onSubmit={handleSubmit}>
             <input type="Search" onChange={handleKeywordChange} defaultValue={props.defaultKeyword}/>
         </form>
